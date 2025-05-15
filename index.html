@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAR-LÃO Automotivo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #a59d9d;
+      color: #191818;
+    }
+    header {
+      background-image: url('C:\Users\Alunos\Desktop\Imagens do site\carlao.png'); /* Substitua pela URL real da imagem da logo */
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      padding: 120px 20px;
+      text-align: center;
+      position: relative;
+    }
+    header h1, header p {
+      background-color: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #ffffff;
+    }
+    .container {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .card {
+      background: rgb(255, 255, 255);
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    .card img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #222;
+      color: #f7f7f7;
+      text-align: center;
+      padding: 20px;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .whatsapp-button img {
+      width: 60px;
+      height: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CAR-LÃO Automotivo</h1>
+    <p>Serviços de manutenção e revisão com qualidade e confiança</p>
+  </header>
+
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#pacotes">Pacotes</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="container">
+    <section id="servicos" class="section">
+      <h2>Serviços</h2>
+      <div class="card">
+        <img src="C:\Users\Professor(a)\Desktop\Imagens site\pneus.jpg" alt="Troca de Pneus">
+        <div>
+          <h3>Troca de Pneus</h3>
+          <p>Substituição de pneus com alinhamento e balanceamento.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="C:\Users\Professor(a)\Desktop\Imagens site\oleo.jpg" alt="Troca de Óleo">
+        <div>
+          <h3>Troca de Óleo</h3>
+          <p>Troca de óleo e filtro com verificação dos fluidos.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="C:\Users\Professor(a)\Desktop\Imagens site\freio.jpg" alt="Troca de Pastilhas">
+        <div>
+          <h3>Troca de Pastilhas</h3>
+          <p>Substituição de pastilhas de freio com revisão do sistema de freios.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pacotes" class="section">
+      <h2>Pacotes de Revisão</h2>
+      <div class="card">
+        <img src="C:\Users\Professor(a)\Desktop\Imagens site\revisao 1.jpg" alt="Revisão Básica">
+        <div>
+          <h3>Revisão Básica</h3>
+          <p>Revisão Básica inclui leitura Scanner, Osciloscópio.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="C:\Users\Professor(a)\Desktop\Imagens site\revisao 2.jpg" alt="Revisão Intermediária">
+        <div>
+          <h3>Revisão Intermediária</h3>
+          <p>Revisão Intermediária inclui teste de vazamentos e limpeza de TBI.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="C:\Users\Professor(a)\Desktop\Imagens site\revisao 3.jpg" alt="Revisão Completa">
+        <div>
+          <h3>Revisão Completa</h3>
+          <p>Todos os serviços da revisão intermediária + diagnóstico eletrônico e teste de cabeçotes.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer id="contato">
+    <h2>Contato</h2>
+    <p>Telefone: (19) 98933-4499</p>
+    <p>Email: CAR-LÃO Automotivo@gmail.com</p>
+    <img src="C:\Users\Alunos\Desktop\Imagens do site\zap.jfif" alt="Contato" style="width: 70px; border-radius: 8px; margin-top: 10px;">
+    <p>&copy; 2025 Oficina Especializada - Todos os direitos reservados</p>
+  </footer>
+
+  <a class="whatsapp-button" href="C:\Users\Alunos\Desktop\Imagens do site\zap.jfif" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="Fale conosco pelo WhatsApp">
+  </a>
+
+</body>
+</html>
